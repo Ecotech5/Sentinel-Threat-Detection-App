@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.spec
+build/
+dist/
+
+# ---- Virtual Environments ----
+env/
+venv/
+ENV/
+.venv/
+
+# ---- Sensitive Files ----
+.env
+*.env
+
+# ---- Databases ----
+*.sqlite3
+*.db
+*.db-journal
+database/
+sentinel_history.db
+
+# ---- Logs and Reports ----
+*.log
+logs/
+reports/
+*.pdf
+
+# ---- OS / Editor Files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
